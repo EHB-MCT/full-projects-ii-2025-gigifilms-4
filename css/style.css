@@ -1,4 +1,59 @@
-section p {
-	font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+h1 {
+	font-family: ;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: ;
+	font-size: 28px;
+}
+
+h3 {
+	font-family: ;
+	font-size: 25px;
+}
+
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+p a {
+	text-decoration: underline;
+	color: #386a93;
+}
+
+blockquote {
+	font-size: 14px;
+}
+
+code {
+}
+
+pre code {
+}
+
+/*Buttons*/
+
+.primary {
+	color: red;
+	background-color: white;
+	padding: 8px;
+	border-radius: 9px;
+	border-color: black;
+}
+
+.primary:hover {
+	color: green;
+}
+
+.secondary {
+	color: blue;
+	background-color: white;
+	padding: 8px;
+	border-radius: 9px;
+	border-color: black;
+}
+
+.secondary:hover {
 	color: green;
 }
