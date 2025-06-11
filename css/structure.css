@@ -56,6 +56,32 @@ nav {
 
 /*-------------------------------------WHO---------------------------------------------------------------*/
 
-.who {
-	position: relative;
+.title h3 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.title em {
+	font-family: "Edwardian Script ITC", sans-serif;
+}
+
+.content {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.left_img {
+	margin-top: 50%;
+}
+.img_block {
+	display: flex;
+	flex-direction: column;
+	max-width: 50%;
+	max-height: 50%;
+}
+
+.right_img {
+	width: 300px;
+	max-width: 100%;
+	height: auto;
 }
