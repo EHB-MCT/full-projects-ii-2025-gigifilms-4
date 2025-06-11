@@ -49,9 +49,13 @@ button:hover {
 	transition: 0.3s;
 	color: #edc295;
 }
-.nav {
+nav {
 	position: relative;
 	left: 50%;
 }
 
 /*-------------------------------------WHO---------------------------------------------------------------*/
+
+.who {
+	position: relative;
+}
