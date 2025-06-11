@@ -1,11 +1,57 @@
 body {
 	background-color: #edc295;
 	height: 100vh;
-	width: 10000px;
+	width: 2500px;
 	overflow-x: scroll;
 	overflow-y: hidden;
 }
-h1 {
-	font-size: 200px;
-	font-family: "bank-gothic-bt", sans-serif;
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	width: max-content;
 }
+/*-------------------------------------HOMEPAGE---------------------------------------------------------------*/
+.homepage {
+	min-width: 100vw;
+	height: 100vh;
+}
+.header {
+	display: flex;
+	align-items: flex-start;
+	padding: 10px 0;
+	white-space: nowrap;
+	align-items: baseline;
+}
+
+.header h1 {
+	font-size: 341.74px;
+	font-family: "impact", sans-serif;
+	margin: 0;
+}
+.header h2 {
+	font-size: 618.5px;
+	font-family: "Edwardian Script ITC", sans-serif;
+	margin: 0;
+}
+button {
+	color: black;
+	background-color: #edc295;
+	font-family: "Edwardian Script ITC", sans-serif;
+	font-style: normal;
+	font-size: 50px;
+	align-items: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+button:hover {
+	background-color: #71583a;
+	transition: 0.3s;
+	color: #edc295;
+}
+.nav {
+	position: relative;
+	left: 50%;
+}
+
+/*-------------------------------------WHO---------------------------------------------------------------*/
