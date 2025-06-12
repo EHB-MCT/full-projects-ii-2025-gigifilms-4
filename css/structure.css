@@ -180,3 +180,140 @@ nav {
 	flex-direction: row;
 	gap: 120px;
 }
+/*-------------------------------------PROJECTS1---------------------------------------------------------------*/
+
+.projects {
+	height: 100vh;
+	display: flex;
+	margin: 50px;
+}
+
+.anayek {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin: 50px;
+}
+.img_tekst {
+	display: flex;
+	flex-direction: row;
+}
+
+.anayek h4 {
+	font-size: 50px;
+	font-family: "Edwardian Script ITC", sans-serif;
+	margin: 0;
+}
+
+.anayek em {
+	font-size: 40px;
+	font-family: "impact", sans-serif;
+	margin: 0;
+}
+.img_tekst {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+.img_tekst img {
+	width: 300px;
+	height: fit-content;
+}
+.img_tekst p {
+	width: 200px;
+	font-family: "Ebrima", sans-serif;
+}
+.img_tekst em {
+	font-size: 20px;
+	font-family: "impact", sans-serif;
+}
+/*-------------------------------------PROJECTS2---------------------------------------------------------------*/
+
+.documentary .container {
+	display: flex;
+	flex-direction: row;
+	margin: 40px;
+}
+
+.links_column {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	gap: 60px;
+}
+.img_top {
+	width: 120px;
+	height: auto;
+}
+.img_bottom {
+	width: 170px;
+	height: auto;
+}
+
+.rechts_column {
+	display: flex;
+	flex-direction: column;
+	margin-top: 8%;
+	margin-left: -35px;
+	gap: 10px;
+}
+.rechts_column p {
+	width: 400px;
+	font-family: "Ebrima", sans-serif;
+}
+.rechts_column em {
+	font-size: 20px;
+	font-family: "impact", sans-serif;
+}
+.img_mid {
+	width: 180px;
+	height: auto;
+}
+
+/*-------------------------------------PROJECTS3---------------------------------------------------------------*/
+
+.series .container {
+	display: flex;
+	flex-direction: row;
+	margin: 50px;
+}
+.series .container .left_img {
+	display: flex;
+	flex-direction: row;
+	margin-top: 22%;
+	gap: 20px;
+}
+.series .container .left_img img {
+	width: 250px;
+	height: fit-content;
+}
+.series .container .left_img p {
+	width: 350px;
+	line-height: 1.3;
+	font-family: "Ebrima", sans-serif;
+}
+.series .container .left_img em {
+	font-size: 20px;
+	font-family: "impact", sans-serif;
+}
+.series .container .right_img {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin-left: -15%;
+}
+.right_img .small-img_img-top {
+	width: 200px;
+	height: fit-content;
+	margin-top: 10%;
+}
+.right_img .small-img_img-middle {
+	width: 130px;
+	height: fit-content;
+	margin-top: 22%;
+}
+.right_img .small-img_img-bottom {
+	width: 130px;
+	height: fit-content;
+}
+/*-------------------------------------Contact---------------------------------------------------------------*/
