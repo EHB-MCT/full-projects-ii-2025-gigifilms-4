@@ -14,6 +14,13 @@ body {
 p {
 	font-family: "Ebrima", sans-serif;
 }
+
+#banner {
+	position: absolute;
+	left: 0%;
+	top: 79%;
+	z-index: -1;
+}
 /*-------------------------------------HOMEPAGE---------------------------------------------------------------*/
 .homepage {
 	min-width: 100vw;
