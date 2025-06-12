@@ -18,7 +18,7 @@ p {
 #banner {
 	position: absolute;
 	left: 0%;
-	top: 79%;
+	top: 65%;
 	z-index: -1;
 }
 /*-------------------------------------HOMEPAGE---------------------------------------------------------------*/
@@ -315,4 +315,32 @@ nav {
 	width: 130px;
 	height: fit-content;
 }
-/*-------------------------------------PROJECTS3---------------------------------------------------------------*/
+/*-------------------------------------Contact---------------------------------------------------------------*/
+
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact p {
+	font-family: "Ebrima", sans-serif;
+}
+.contact .container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.contact .container h5 {
+	font-size: 40px;
+	font-family: "impact", sans-serif;
+}
+.contact .container em {
+	font-size: 50px;
+	font-family: "Edwardian Script ITC", sans-serif;
+}
+.insta {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: center;
+}
