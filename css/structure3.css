@@ -1,0 +1,65 @@
+body {
+	background-color: #edc295;
+	height: 100vh;
+	width: 2500px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	width: max-content;
+}
+
+button {
+	color: black;
+	background-color: #edc295;	
+	font-family: "Edwardian Script ITC", sans-serif;
+	font-style: normal;
+	font-size: 50px;
+	align-items: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+button:hover {
+	background-color: #71583a;
+	transition: 0.3s;
+	color: #edc295;
+}
+
+#banner {
+	position: absolute;
+	left: 0%;
+    top: 65%;
+	z-index: -1;
+}
+
+
+/*-------------------------------------roles---------------------------------------------------------------*/
+.Roles {
+	position: relative;
+}
+
+.titel1 {
+	min-width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: flex-start;
+	padding: 100px 0;
+	padding-left: 170px;
+	align-items: first baseline;
+}
+.titel1 h3 {
+	font-size: 40px;
+	font-family: "impact", sans-serif;
+	margin: 0;
+}
+
+.titel1 em {
+	font-size: 65px;
+	font-family: "Edwardian Script ITC", sans-serif;
+	margin: 0;
+}
+
+
