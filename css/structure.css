@@ -18,7 +18,7 @@ p {
 #banner {
 	position: absolute;
 	left: 0%;
-	top: 65%;
+	top: 79%;
 	z-index: -1;
 }
 /*-------------------------------------HOMEPAGE---------------------------------------------------------------*/
@@ -321,6 +321,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-right: 100px;
 }
 .contact p {
 	font-family: "Ebrima", sans-serif;
