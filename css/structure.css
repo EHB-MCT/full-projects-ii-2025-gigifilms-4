@@ -11,6 +11,9 @@ body {
 	flex-direction: row;
 	width: max-content;
 }
+p {
+	font-family: "Ebrima", sans-serif;
+}
 /*-------------------------------------HOMEPAGE---------------------------------------------------------------*/
 .homepage {
 	min-width: 100vw;
@@ -59,8 +62,8 @@ nav {
 /*-------------------------------------WHO---------------------------------------------------------------*/
 
 .who {
-	margin: 40px;
-	margin-top: 7%;
+	margin: 50px;
+	margin-top: 3%;
 }
 .title {
 	display: flex;
@@ -118,4 +121,48 @@ p {
 
 .right_img img {
 	width: 200px;
+}
+/*-------------------------------------What---------------------------------------------------------------*/
+.what {
+	min-width: 100vw;
+	height: 100vh;
+	display: flex;
+	margin: 100px;
+}
+
+.photos {
+	display: flex;
+	flex-direction: row;
+	margin: 50px;
+}
+.what .title {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-top: 10%;
+	gap: 25px;
+}
+
+.what .title p {
+	width: 250px;
+	font-family: "Ebrima", sans-serif;
+}
+.first_left img {
+	width: 220px;
+	height: auto;
+}
+
+.second_left img {
+	width: 120px;
+	height: auto;
+}
+
+.third_left img {
+	width: 250px;
+	height: auto;
+}
+
+.fourth_left img {
+	width: 100px;
+	height: auto;
 }
