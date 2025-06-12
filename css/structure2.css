@@ -36,7 +36,7 @@ body {
 }
 button {
 	color: black;
-	background-color: #edc295;
+	background-color: #edc295;	
 	font-family: "Edwardian Script ITC", sans-serif;
 	font-style: normal;
 	font-size: 50px;
@@ -62,9 +62,26 @@ nav {
     top: 65%;
 	z-index: -1;
 }
+.titel1 {
+	display: flex;
+	align-items: flex-start;
+	padding: 100px 0;
+	align-items: baseline;
+}
+.titel1 h3 {
+	font-size: 40px;
+	font-family: "impact", sans-serif;
+	margin: 0;
+}
 
-/*-------------------------------------WHO---------------------------------------------------------------*/
+.titel1 em {
+	font-size: 65px;
+	font-family: "Edwardian Script ITC", sans-serif;
+	margin: 0;
+}h
 
-.who {
+/*-------------------------------------roles---------------------------------------------------------------*/
+
+.Roles {
 	position: relative;
 }
