@@ -50,38 +50,72 @@ button:hover {
 	color: #edc295;
 }
 nav {
-	position: relative;
+	position: absolute;
 	left: 50%;
+	top: 80%;
+	z-index: +2;
 }
 
 /*-------------------------------------WHO---------------------------------------------------------------*/
 
+.who {
+	margin: 40px;
+	margin-top: 7%;
+}
+.title {
+	display: flex;
+	align-items: flex-end;
+	margin-left: 40px;
+}
 .title h3 {
 	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 50px;
 }
 .title em {
 	font-family: "Edwardian Script ITC", sans-serif;
+	margin-right: 5px;
+	font-size: 40px;
+}
+
+p {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .content {
 	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
 }
 
 .left_img {
-	margin-top: 50%;
-}
-.img_block {
 	display: flex;
 	flex-direction: column;
-	max-width: 50%;
-	max-height: 50%;
+	align-items: center;
+	gap: 20px;
+	margin-top: 10px;
+}
+.img_block {
+	text-align: center;
 }
 
-.right_img {
-	width: 300px;
-	max-width: 100%;
+.img_block2 p {
+	z-index: +1;
+	padding-right: 50%;
+}
+
+.img_block1 img {
+	width: 120px;
 	height: auto;
+	margin-left: 60%;
+}
+
+.img_block2 img {
+	width: 120px;
+	height: auto;
+	margin-right: 20%;
+}
+
+.right_img img {
+	width: 200px;
 }
