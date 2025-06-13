@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+	background-color: #edc295;
+}
+
+h1 {
+	font-family: "bank-gothic-bt", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 40px;
+	color: #231f20;
+}
+
+h2 {
+	font-family: "bank-gothic-bt", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 30px;
+	color: #231f20;
+}
+
+h3 {
+	font-family: "bank-gothic-bt", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 25px;
+	color: #231f20;
+}
+
+p {
+	font-family: "Roboto", sans-serif;
+	color: #231f20;
+	font-size: 16px;
+}
+
+p a {
+	font-family: "Roboto", sans-serif;
+	text-decoration: underline;
+	color: #71583a;
+}
+
+blockquote {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	color: #231f20;
+}
+
+code {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	color: #231f20;
+}
+
+pre code {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	color: #231f20;
+}
+
+/*Buttons*/
+
+.primary {
+	color: white;
+	background-color: #71583a;
+	padding: 8px;
+	border-radius: 3px;
+	border-color: #231f20;
+	font-family: "bank-gothic-bt", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 14px;
+}
+
+.primary:hover {
+	color: #231f20;
+	border-radius: 3px;
+	border-color: #231f20;
+	background-color: #edc295;
+	font-family: "bank-gothic-bt", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 14px;
+}
+
+.secondary {
+	color: #231f20;
+	background-color: #edc295;
+	padding: 8px;
+	border-radius: 3px;
+	border-color: #231f20;
+	font-family: "bank-gothic-bt", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 14px;
+}
+
+.secondary:hover {
+	color: white;
+	background-color: #71583a;
+	padding: 8px;
+	border-radius: 3px;
+	border-color: #231f20;
+	font-family: "bank-gothic-bt", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 14px;
+}
+
+/*Form*/
+
+label {
+	font-family: "Roboto", sans-serif;
+	color: #231f20;
+	font-size: 16px;
+}
+
+select {
+	color: #231f20;
+	background-color: #edc295;
+	padding: 4px;
+	border-radius: 4px;
+	border-color: #231f20;
+}
+
+input {
+	border-radius: 3px;
+	border-color: #231f20;
+}
+
+textarea {
+	border-radius: 3px;
+	border-color: #231f20;
+}
+
+.submit {
+	color: white;
+	background-color: #71583a;
+	padding: 3px;
+	border-radius: 3px;
+	border-color: #231f20;
+	font-family: "bank-gothic-bt", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 12px;
+}
+
+.submit:hover {
+	color: #231f20;
+	border-radius: 3px;
+	border-color: #231f20;
+	background-color: #edc295;
+	font-family: "bank-gothic-bt", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 12px;
+}
+
+ul li {
+	font-family: "Roboto", sans-serif;
+	color: #231f20;
+	font-size: 16px;
+}
+
+ol li {
+	font-family: "Roboto", sans-serif;
+	color: #231f20;
+	font-size: 16px;
+}

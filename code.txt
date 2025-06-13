@@ -1,0 +1,6 @@
+
+Section actors 
+<div class="titel2">
+				<h3 id="c1">The <em>actors</em></h3>
+				<a href="/actors.html"><button>see more -></button></a>	
+			</div>
