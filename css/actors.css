@@ -18,22 +18,6 @@ body {
 	width: max-content;
 }
 
-button {
-	color: black;
-	background-color: #edc295;
-	font-family: "Edwardian Script ITC", sans-serif;
-	font-style: normal;
-	font-size: 50px;
-	align-items: center;
-	padding-left: 50px;
-	padding-right: 50px;
-}
-button:hover {
-	background-color: #71583a;
-	transition: 0.3s;
-	color: #edc295;
-}
-
 #banner {
 	position: absolute;
 	left: 0%;
@@ -81,12 +65,12 @@ button:hover {
 nav {
 	display: flex;
 	flex-direction: row;
-	margin-left: 12%;
+	margin-left: 9%;
 }
 .nav-buttons {
 	display: flex;
 	gap: 5px;
-	margin-top: -12%;
+	margin-top: -9%;
 }
 /*-------------------------------------Filter---------------------------------------------------------------*/
 .actors {
