@@ -5,6 +5,13 @@ body {
 	overflow-x: scroll;
 	overflow-y: hidden;
 }
+@font-face {
+	font-family: "Edwardian Script ITC";
+	src: url("../assets/fonts/edwardianscriptitc.ttf") format("truetype");
+	/* alternatief: format('opentype') of andere indien nodig */
+	font-weight: normal;
+	font-style: normal;
+}
 
 .wrapper {
 	display: flex;
@@ -238,14 +245,14 @@ nav {
 	display: flex;
 	flex-direction: column;
 	margin-top: 50px;
-	gap: 60px;
+	gap: 40px;
 }
 .img_top {
-	width: 120px;
+	width: 150px;
 	height: auto;
 }
 .img_bottom {
-	width: 170px;
+	width: 200px;
 	height: auto;
 }
 
@@ -265,8 +272,9 @@ nav {
 	font-family: "impact", sans-serif;
 }
 .img_mid {
-	width: 180px;
+	width: 200px;
 	height: auto;
+	margin-left: 10%;
 }
 
 /*-------------------------------------PROJECTS3---------------------------------------------------------------*/
