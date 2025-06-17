@@ -61,6 +61,7 @@ button {
 	font-size: 20px;
 	background-color: #71583a;
 	color: #edc295;
+	margin-bottom: -20%;
 }
 
 button:hover {
