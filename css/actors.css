@@ -47,7 +47,7 @@ body {
 	font-family: "Edwardian Script ITC", sans-serif;
 	margin: 0;
 }
-button {
+.nav-buttons button {
 	color: black;
 	background-color: #edc295;
 	font-family: "Edwardian Script ITC", sans-serif;
@@ -57,7 +57,7 @@ button {
 	padding-left: 50px;
 	padding-right: 50px;
 }
-button:hover {
+.nav-buttons button:hover {
 	background-color: #71583a;
 	transition: 0.3s;
 	color: #edc295;
@@ -80,7 +80,7 @@ nav {
 	display: flex;
 	flex-direction: column;
 	border: 2px solid black;
-	margin-top: 10%;
+	margin-top: 5%;
 	gap: 10px;
 	padding: 10px;
 }
@@ -138,6 +138,28 @@ label {
 	gap: 10px;
 }
 
+.apply {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 5px;
+}
+
+.apply button {
+	color: black;
+	background-color: #edc295;
+	font-family: "impact", sans-serif;
+	font-style: normal;
+	font-size: 25px;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.apply button:hover {
+	background-color: #71583a;
+	transition: 0.3s;
+	color: #edc295;
+}
 /*-------------------------------------Photos1---------------------------------------------------------------*/
 
 .photoslinks {
