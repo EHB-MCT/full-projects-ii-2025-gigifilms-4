@@ -8,73 +8,88 @@
 body {
 	background-color: #edc295;
 	height: 100vh;
-	margin: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
 .login {
+	display: flex;
+	flex-direction: column;
+	margin-top: -20%;
+}
+.container {
+	width: 800px;
+	height: 500px;
+	background-color: #c3a17c;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: -32%;
+	gap: 10px;
+	z-index: 1;
 }
 
-.login h1 {
+.text {
+	font-size: 150px;
 	font-family: "Edwardian Script ITC", sans-serif;
 	font-weight: normal;
-	font-style: normal;
-	font-size: px;
-	margin: 0;
+	margin-left: -15%;
+	z-index: 3;
+}
+input {
+	border-radius: 5px;
+	background-color: #edc295;
+	width: 300px;
+	height: 35px;
+}
+input::placeholder {
+	padding-left: 10px;
 }
 
-.form {
-	background-color: #c3a17c;
-	border: 1px solid black;
-	margin-left: 15%;
-	margin-right: 15%;
+p {
+	font-family: "Ebrima", sans-serif;
+	font-size: 20px;
+	margin-bottom: 5px;
 }
 
-.form h3 {
-	font-family: "impact", sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	margin-left: 25%;
-	padding-top: 8%;
-	margin-bottom: 10px;
-}
-
-.form input {
-	width: 45%;
-	margin-left: 25%;
-	background-color: #c3a17c;
-	border: 1px solid black;
-	border-radius: 3px;
-	padding: 0px 10px 10px 0px;
-}
-
-.login-button button {
-	width: 45%;
-	margin-left: 25%;
+button {
+	width: 300px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 20px;
 	background-color: #71583a;
-	border: 1px solid black;
-	border-radius: 3px;
-	padding: 0px 10px 10px 0px;
+	color: #edc295;
 }
 
-.login-button button:hover {
-	background-color: white;
-}
-
-.login-button a {
-	align-items: center;
-	text-align: center;
-	align-content: center;
-}
-
-.create-button a {
-	text-decoration: underline;
+button:hover {
+	background-color: #edc295;
+	transition: 0.3s;
 	color: black;
 }
 
-.create-button a:hover {
-	color: white;
+.text_below {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
 }
 
-.create {
-	flex: 1;
+.text_below button {
+	font-size: 15px;
+	width: 200px;
+	height: 30px;
+}
+.text_below p {
+	font-size: 15px;
+	background-color: #71583a;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	margin-top: 0%;
+	color: #edc295;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
