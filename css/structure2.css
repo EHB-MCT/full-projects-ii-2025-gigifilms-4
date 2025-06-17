@@ -65,12 +65,15 @@ button:hover {
 	color: #edc295;
 }
 nav {
-	position: absolute;
-	left: 30%;
-	top: 80%;
-	z-index: +2;
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
 }
-
+.nav-buttons {
+	display: flex;
+	gap: 350px;
+	margin-top: -9%;
+}
 /*-------------------------------------roles---------------------------------------------------------------*/
 .roles {
 	height: 100vh;
