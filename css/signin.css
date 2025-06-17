@@ -9,60 +9,22 @@ body {
 	background-color: #edc295;
 	height: 100vh;
 	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .signin {
+	display: flex;
+	flex-direction: column;
 }
 
-.signin h1 {
-	font-family: "Edwardian Script ITC", sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	font-size: px;
-	margin: 0;
-}
-
-.form {
+.container {
+	width: 800px;
+	height: 500px;
 	background-color: #c3a17c;
-	border: 1px solid black;
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
-.form h3 {
-	font-family: "impact", sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	margin-left: 25%;
-	padding-top: 5%;
-	margin-bottom: 10px;
-}
-
-.form input {
-	width: 45%;
-	margin-left: 25%;
-	background-color: #c3a17c;
-	border: 1px solid black;
-	border-radius: 3px;
-	padding: 0px 10px 10px 0px;
-}
-
-.continue button {
-	width: 45%;
-	margin-left: 25%;
-	background-color: #71583a;
-	border: 1px solid black;
-	border-radius: 3px;
-	padding: 0px 10px 10px 0px;
-	margin-bottom: 15px;
-}
-
-.continue button:hover {
-	background-color: white;
-}
-
-.continue a {
 	align-items: center;
-	text-align: center;
-	align-content: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
 }

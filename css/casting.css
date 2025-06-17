@@ -64,6 +64,21 @@ button:hover {
 	transition: 0.3s;
 	color: #edc295;
 }
+.links_btn button {
+	color: #edc295;
+	background-color: #71583a;
+	font-family: "Edwardian Script ITC", sans-serif;
+	font-style: normal;
+	font-size: 50px;
+	align-items: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.links_btn button:hover {
+	background-color: #edc295;
+	transition: 0.3s;
+	color: black;
+}
 nav {
 	display: flex;
 	flex-direction: row;
