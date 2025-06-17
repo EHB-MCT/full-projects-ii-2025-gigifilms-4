@@ -45,6 +45,9 @@ input {
 	width: 300px;
 	height: 35px;
 }
+input::placeholder {
+	padding-left: 10px;
+}
 p {
 	font-family: "Ebrima", sans-serif;
 	font-size: 20px;
@@ -57,6 +60,7 @@ button {
 	border-radius: 5px;
 	font-size: 20px;
 	background-color: #71583a;
+	color: #edc295;
 }
 
 button:hover {
