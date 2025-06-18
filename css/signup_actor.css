@@ -6,6 +6,11 @@
 }
 body {
 	background-color: #edc295;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
 }
 h2 {
 	font-family: "Edwardian Script ITC", sans-serif;
@@ -13,4 +18,96 @@ h2 {
 }
 label {
 	font-family: "Ebrima", sans-serif;
+}
+.register_form {
+	background-color: #c3a17c;
+	width: 1400px;
+	height: 650px;
+	margin: 0 auto;
+}
+/*-----------------------------PersonalInfo--------------------------*/
+.personal_info {
+	display: flex;
+	flex-direction: column;
+	width: 750px;
+	margin: 0 auto;
+}
+.personal_info h2 {
+	margin-left: -10%;
+	margin-top: 5%;
+}
+.input_group {
+	width: 800px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 20px;
+	align-items: center;
+	margin-top: -2%;
+}
+.input_group .boven {
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+	justify-content: center;
+}
+input {
+	background-color: #c3a17c;
+	border-radius: 5px;
+	height: 20px;
+}
+input::placeholder {
+	padding-left: 10px;
+}
+select {
+	background-color: #c3a17c;
+	border-radius: 5px;
+	height: 20px;
+	width: 170px;
+	height: 25px;
+}
+.firstname_group {
+	display: flex;
+	flex-direction: column;
+}
+.lastname_group {
+	display: flex;
+	flex-direction: column;
+}
+.phone_group {
+	display: flex;
+	flex-direction: column;
+}
+.input_group .onder {
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+	justify-content: center;
+}
+
+.birth_group {
+	display: flex;
+	flex-direction: column;
+}
+.gender_group {
+	display: flex;
+	flex-direction: column;
+}
+.adress_group {
+	display: flex;
+	flex-direction: column;
+}
+
+/*----------------------------------------Physical Information-----------------*/
+
+.physical_info {
+	display: flex;
+	flex-direction: column;
+	width: 750px;
+	margin: 0 auto;
+}
+.physical_info h2 {
+	margin-left: -10%;
+	margin-top: 5%;
 }
