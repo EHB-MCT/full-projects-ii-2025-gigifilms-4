@@ -1,0 +1,16 @@
+@font-face {
+	font-family: "Edwardian Script ITC";
+	src: url("../assets/fonts/edwardianscriptitc.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	background-color: #edc295;
+}
+h2 {
+	font-family: "Edwardian Script ITC", sans-serif;
+	font-size: 40px;
+}
+label {
+	font-family: "Ebrima", sans-serif;
+}
