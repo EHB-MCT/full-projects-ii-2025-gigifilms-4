@@ -1,17 +1,22 @@
-body {
-	background-color: #edc295;
-	height: 100vh;
-	width: 2500px;
-	overflow-x: scroll;
-	overflow-y: hidden;
-}
+@import url(https://use.typekit.net/xwh3mby.css);
+
 @font-face {
 	font-family: "Edwardian Script ITC";
 	src: url("../assets/fonts/edwardianscriptitc.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
-@import url(https://use.typekit.net/xwh3mby.css);
+
+
+body {
+	background-color: #edc295;
+	height: 100vh;
+	width: 2500px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	scroll-behavior: smooth;
+}
+
 .wrapper {
 	display: flex;
 	flex-direction: row;
