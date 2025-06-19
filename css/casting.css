@@ -28,7 +28,6 @@ p {
 
 #banner {
 	position: absolute;
-	left: 0%;
 	top: 65%;
 	z-index: -1;
 }
