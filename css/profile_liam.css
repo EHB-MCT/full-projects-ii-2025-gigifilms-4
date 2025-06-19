@@ -81,7 +81,20 @@ nav {
 	gap: 50px;
 	width: 100vw;
 }
-
+h3 {
+	font-size: 50px;
+	font-family: Impact, sans-serif;
+}
+h4 {
+	font-size: 30px;
+	font-family: Impact, sans-serif;
+}
+p {
+	font-family: Impact, sans-serif;
+}
+em {
+	font-family: "ebrima", sans-serif;
+}
 .first_column {
 	display: flex;
 	flex-direction: column;
@@ -99,4 +112,52 @@ nav {
 	flex-direction: column;
 	gap: 10px;
 	width: 300px;
+}
+.fourth_column {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	gap: 100px;
+}
+.fourth_column .talents {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	width: 300px;
+}
+.fourth_column .talents em {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.fourth_column .talents p {
+	font-family: "ebrima", sans-serif;
+}
+.fourth_column .hobbys em {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.fourth_column .hobbys p {
+	font-family: "ebrima", sans-serif;
+}
+.fourth_column .hobbys {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	width: 300px;
+}
+
+.fifth_column {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+}
+.fifth_column .previous_castings {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	width: 300px;
+}
+.fifth_column .container_castings p {
+	font-family: "ebrima", sans-serif;
+}
+.fifth_column .previous_castings em {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
