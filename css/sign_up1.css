@@ -14,6 +14,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: #edc295;
+	overflow-x: hidden;
+	overflow-y: hidden;
 }
 #banner {
 	position: absolute;
