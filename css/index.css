@@ -61,7 +61,7 @@ p {
 	font-family: "Edwardian Script ITC", sans-serif;
 	margin: 0;
 }
-button {
+.rechts_btn button {
 	color: black;
 	background-color: #edc295;
 	font-family: "Edwardian Script ITC", sans-serif;
@@ -71,10 +71,26 @@ button {
 	padding-left: 50px;
 	padding-right: 50px;
 }
-button:hover {
+.rechts_btn button:hover {
 	background-color: #71583a;
 	transition: 0.3s;
 	color: #edc295;
+}
+.links_btn button {
+	font-family: "Edwardian Script ITC", sans-serif;
+	font-style: normal;
+	font-size: 50px;
+	align-items: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #71583a;
+	color: #edc295;
+}
+.links_btn button:hover {
+	background-color: #edc295;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
 }
 nav {
 	display: flex;
@@ -86,6 +102,7 @@ nav {
 	gap: 400px;
 	margin-top: -5%;
 }
+
 /*-------------------------------------WHO---------------------------------------------------------------*/
 
 .who {
