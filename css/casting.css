@@ -21,6 +21,10 @@ body {
 	width: max-content;
 	overflow-x: scroll;
 	scroll-behavior: smooth;
+<<<<<<< HEAD
+=======
+	
+>>>>>>> d52f04b75ec4e0fdb9b88c5c354e2ba39bcd7db6
 }
 p {
 	font-family: "Ebrima", sans-serif;
@@ -36,6 +40,7 @@ p {
 .homepage {
 	min-width: 100vw;
 	height: 100vh;
+	
 }
 .header {
 	display: flex;
@@ -156,10 +161,19 @@ nav {
 }
 /*--------------------------Login---------------------------------*/
 .login {
+<<<<<<< HEAD
 	margin-top: 0%;
 	min-width: 100vw;
 	height: 100vh;
+=======
+<<<<<<< HEAD
+	margin-top: 0%;
+	min-width: 100vw;
+	height: 100vh;
+=======
+>>>>>>> d52f04b75ec4e0fdb9b88c5c354e2ba39bcd7db6
 	margin-top: 1%;
+>>>>>>> e7e7ae847e36c4dd863577d7a9f7f843847cf551
 }
 .login_text {
 	font-size: 100px;
