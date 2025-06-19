@@ -19,6 +19,8 @@ body {
 	display: flex;
 	flex-direction: row;
 	width: max-content;
+	overflow-x: scroll;
+	scroll-behavior: smooth;
 }
 p {
 	font-family: "Ebrima", sans-serif;
@@ -101,6 +103,7 @@ nav {
 	flex-direction: row;
 	gap: 30px;
 	margin: 120px;
+	min-width: 100vw;
 }
 .titel1 {
 	margin-top: 10%;
@@ -153,6 +156,9 @@ nav {
 }
 /*--------------------------Login---------------------------------*/
 .login {
+	margin-top: 0%;
+	min-width: 100vw;
+	height: 100vh;
 	margin-top: 1%;
 }
 .login_text {
