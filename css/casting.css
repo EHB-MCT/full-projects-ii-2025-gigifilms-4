@@ -21,10 +21,6 @@ body {
 	width: max-content;
 	overflow-x: scroll;
 	scroll-behavior: smooth;
-<<<<<<< HEAD
-=======
-	
->>>>>>> d52f04b75ec4e0fdb9b88c5c354e2ba39bcd7db6
 }
 p {
 	font-family: "Ebrima", sans-serif;
@@ -40,7 +36,6 @@ p {
 .homepage {
 	min-width: 100vw;
 	height: 100vh;
-	
 }
 .header {
 	display: flex;
@@ -159,21 +154,10 @@ nav {
 	margin-left: -30%;
 	margin-top: 100%;
 }
-/*--------------------------Login---------------------------------*/
+/*--------------------------Login------------------------------------------------------------------*/
 .login {
-<<<<<<< HEAD
-	margin-top: 0%;
-	min-width: 100vw;
-	height: 100vh;
-=======
-<<<<<<< HEAD
-	margin-top: 0%;
-	min-width: 100vw;
-	height: 100vh;
-=======
->>>>>>> d52f04b75ec4e0fdb9b88c5c354e2ba39bcd7db6
-	margin-top: 1%;
->>>>>>> e7e7ae847e36c4dd863577d7a9f7f843847cf551
+	margin-top: 5%;
+	margin-left: -15%;
 }
 .login_text {
 	font-size: 100px;
@@ -203,9 +187,9 @@ nav {
 	font-family: "Ebrima", sans-serif;
 }
 .login_btn button:hover {
-	background-color: #71583a;
+	background-color: #edc295;
 	transition: 0.3s;
-	color: #edc295;
+	color: black;
 	cursor: pointer;
 }
 .email input {
@@ -231,4 +215,51 @@ nav {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
+}
+/*-----------------------------------------Join us------------------------------------------------------------------*/
+.in_row {
+	display: flex;
+	flex-direction: row;
+	gap: 200px;
+}
+
+.join_us {
+	margin-top: 5%;
+}
+.join_us_text {
+	font-size: 100px;
+	font-family: "Edwardian Script ITC", sans-serif;
+	margin: 0;
+	line-height: 0.8;
+}
+h2 {
+	font-family: "Ebrima", sans-serif;
+	font-size: 20px;
+}
+
+.role_btn button {
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 15px;
+	background-color: #71583a;
+	color: #edc295;
+	font-family: "Ebrima", sans-serif;
+}
+
+.role_btn button:hover {
+	background-color: #edc295;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+}
+.role_btn {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.join_us .container {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
 }
