@@ -9,15 +9,25 @@
 }
 
 body {
-	background-color: #edc295;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #edc295;
+}
+.wrapper {
+	margin-top: -5%;
+}
+h1 {
+	font-size: 200px;
+	font-family: "Edwardian Script ITC", sans-serif;
+	margin-left: -15%;
+	line-height: 0.55;
 }
 
 .container {
 	border: 2px solid black;
+
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -27,8 +37,33 @@ body {
 	font-family: "roboto", sans-serif;
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 30px;
 }
 .bovenste h2 {
 	font-weight: bold;
+	font-size: 20px;
+}
+.bovenste p {
+	font-size: 20px;
+}
+.onderste {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+
+.onderste button {
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 20px;
+	background-color: #71583a;
+	color: #edc295;
+	font-family: "Ebrima", sans-serif;
+}
+.onderste button:hover {
+	background-color: #edc295;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
 }
