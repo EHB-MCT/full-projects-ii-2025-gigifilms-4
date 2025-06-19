@@ -1,6 +1,10 @@
 Init();
 
 function Init() {
+	const wrapper = document.querySelector(".wrapper");
+	console.log(wrapper.scrollWidth, wrapper.clientWidth);
+	wrapper.scrollTo({ behavior: "smooth" });
+
 	const whoButton = document.getElementById("who");
 	const whatButton = document.getElementById("what");
 	const projectButton = document.getElementById("projects");
