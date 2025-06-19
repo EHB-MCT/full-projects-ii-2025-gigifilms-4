@@ -1,0 +1,104 @@
+@import url("https://use.typekit.net/xwh3mby.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+	font-family: "Edwardian Script ITC";
+	src: url("../assets/fonts/edwardianscriptitc.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #edc295;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#banner {
+	position: absolute;
+	top: 70%;
+	z-index: -1;
+}
+.wrapper {
+	margin-top: -5%;
+}
+h1 {
+	font-size: 200px;
+	font-family: "Edwardian Script ITC", sans-serif;
+	margin-left: -15%;
+	line-height: 0.55;
+}
+.container {
+	border: 2px solid black;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 100px;
+	gap: 15px;
+}
+.input_boven {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+.input_boven .input_name {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	gap: 5px;
+}
+.input_boven .input_password {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	gap: 5px;
+}
+.input_onder {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+.input_onder .input_email {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	gap: 5px;
+}
+.input_onder .input_confirm {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	gap: 5px;
+}
+.onderste {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.onderste button {
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 20px;
+	background-color: #71583a;
+	color: #edc295;
+	font-family: "Ebrima", sans-serif;
+}
+.onderste button:hover {
+	background-color: #edc295;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+}
+label {
+	font-family: "roboto", sans-serif;
+}
+input {
+	background-color: #edc295;
+	width: 250px;
+	height: 30px;
+	border-radius: 5px;
+}
