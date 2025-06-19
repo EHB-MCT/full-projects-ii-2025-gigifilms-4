@@ -7,7 +7,6 @@
 	font-style: normal;
 }
 
-
 body {
 	background-color: #edc295;
 	height: 100vh;
@@ -72,6 +71,7 @@ button:hover {
 	background-color: #71583a;
 	transition: 0.3s;
 	color: #edc295;
+	cursor: pointer;
 }
 .links_btn button {
 	color: #edc295;
@@ -87,6 +87,7 @@ button:hover {
 	background-color: #edc295;
 	transition: 0.3s;
 	color: black;
+	cursor: pointer;
 }
 nav {
 	display: flex;
@@ -95,7 +96,7 @@ nav {
 }
 .nav-buttons {
 	display: flex;
-	gap: 350px;
+	gap: 300px;
 	margin-top: -9%;
 }
 /*-------------------------------------roles---------------------------------------------------------------*/
@@ -158,24 +159,30 @@ nav {
 }
 /*--------------------------Login---------------------------------*/
 .login {
+<<<<<<< HEAD
 	margin-top: 0%;
 	min-width: 100vw;
 	height: 100vh;
+=======
+	margin-top: 1%;
+>>>>>>> e7e7ae847e36c4dd863577d7a9f7f843847cf551
 }
 .login_text {
 	font-size: 100px;
 	font-family: "Edwardian Script ITC", sans-serif;
-	z-index: 2;
+	margin: 0;
+	line-height: 0.8;
 }
 .container {
-	background-color: #c3a17c;
 	width: 350px;
-	height: 450px;
+	height: 400px;
 	gap: 30px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	border: 2px solid black;
+	margin-top: -10px;
 }
 
 .login_btn button {
@@ -191,6 +198,7 @@ nav {
 	background-color: #71583a;
 	transition: 0.3s;
 	color: #edc295;
+	cursor: pointer;
 }
 .email input {
 	width: 200px;

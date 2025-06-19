@@ -64,6 +64,7 @@ button:hover {
 	background-color: #edc295;
 	transition: 0.3s;
 	color: black;
+	cursor: pointer;
 }
 nav {
 	display: flex;
@@ -162,6 +163,7 @@ label {
 	background-color: #71583a;
 	transition: 0.3s;
 	color: #edc295;
+	cursor: pointer;
 }
 /*-------------------------------------Photos1---------------------------------------------------------------*/
 
