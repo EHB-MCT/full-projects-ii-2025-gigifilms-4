@@ -16,7 +16,7 @@ body {
 .wrapper {
 	display: flex;
 	flex-direction: row;
-	width: max-content;
+	margin-top: -5%;
 }
 #banner {
 	position: absolute;
@@ -25,10 +25,6 @@ body {
 }
 
 /*-------------------------------------------Roles--------------------------------------------------*/
-.wrapper {
-	max-width: fit-content;
-	margin-top: -5%;
-}
 .roles {
 	height: 100vh;
 	display: flex;
@@ -37,6 +33,27 @@ body {
 	align-items: center;
 	justify-content: center;
 	margin-left: 5%;
+}
+.left_text {
+	display: flex;
+	flex-direction: column;
+	gap: 75px;
+}
+.left_text button {
+	color: #edc295;
+	background-color: #71583a;
+	font-family: "Edwardian Script ITC", sans-serif;
+	font-style: normal;
+	font-size: 50px;
+	align-items: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.left_text button:hover {
+	background-color: #edc295;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
 }
 .titel1 {
 	display: flex;
