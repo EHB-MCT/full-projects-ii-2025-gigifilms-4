@@ -1,0 +1,111 @@
+@import url(https://use.typekit.net/xwh3mby.css);
+
+@font-face {
+	font-family: "Edwardian Script ITC";
+	src: url("../assets/fonts/edwardianscriptitc.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-color: #edc295;
+	height: 100vh;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	width: max-content;
+}
+#banner {
+	position: absolute;
+	top: 65%;
+	z-index: -1;
+}
+
+/*-------------------------------------------Roles--------------------------------------------------*/
+.wrapper {
+	max-width: fit-content;
+	margin-top: -5%;
+}
+.roles {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	align-items: center;
+	justify-content: center;
+	margin-left: 5%;
+}
+.titel1 {
+	display: flex;
+	align-items: baseline;
+	gap: 10px;
+}
+
+.titel1 h3 {
+	display: flex;
+	font-size: 50px;
+	font-family: "Edwardian Script ITC", sans-serif;
+	gap: 10px;
+}
+
+.titel1 em {
+	font-size: 40px;
+	font-family: "impact", sans-serif;
+}
+.roles .images {
+	display: flex;
+	flex-direction: row;
+	object-fit: cover;
+	gap: 30px;
+}
+.roles .images .foto1 {
+	margin-top: 10%;
+	width: 250px;
+	height: fit-content;
+}
+.roles .images .foto2 {
+	margin-top: 20%;
+	width: 270px;
+	height: fit-content;
+}
+.roles .images .foto3 {
+	margin-top: 12%;
+	width: 260px;
+	height: fit-content;
+}
+.roles .images .foto4 {
+	margin-top: 18%;
+	width: 270px;
+	height: fit-content;
+}
+.roles .images .foto5 {
+	margin-top: 10%;
+	width: 300px;
+	height: fit-content;
+}
+.roles .images .foto6 {
+	margin-top: 15%;
+	width: 200px;
+	height: fit-content;
+}
+.roles .images .foto7 {
+	margin-top: 17%;
+	width: 250px;
+	height: fit-content;
+}
+.roles .images-and-button {
+	display: flex;
+	flex-direction: row;
+	gap: 35px;
+	margin-top: -5%;
+}
+
+.images-and-button button {
+	font-family: "impact", sans-serif;
+	font-size: 30px;
+	margin-left: -30%;
+	margin-top: 100%;
+}
