@@ -18,7 +18,7 @@ body {
 }
 #banner {
 	position: absolute;
-	top: 70%;
+	top: 80%;
 	z-index: -1;
 }
 .wrapper {
@@ -104,15 +104,16 @@ input {
 }
 /*-------------------------------------MOBILE---------------------------------------------------------------*/
 @media (max-width: 768px) {
-	html,body {
-	height: 100vh;
-	width: 2500px;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	position: fixed;
-	margin: 0%;
-	padding: 0%;
-	touch-action: pan-x;
-	overscroll-behavior: none;
-}
+	html,
+	body {
+		height: 100vh;
+		width: 2500px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		position: fixed;
+		margin: 0%;
+		padding: 0%;
+		touch-action: pan-x;
+		overscroll-behavior: none;
+	}
 }
