@@ -1,0 +1,91 @@
+@import url("https://use.typekit.net/xwh3mby.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+	font-family: "Edwardian Script ITC";
+	src: url("../assets/fonts/edwardianscriptitc.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #edc295;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#banner {
+	position: absolute;
+	top: 80%;
+	z-index: -1;
+}
+.wrapper {
+	margin-top: -5%;
+}
+h1 {
+	font-size: 200px;
+	font-family: "Edwardian Script ITC", sans-serif;
+	margin-left: -15%;
+	line-height: 0.55;
+}
+
+.container {
+	border: 2px solid black;
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 100px;
+}
+.bovenste {
+	font-family: "roboto", sans-serif;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.bovenste h2 {
+	font-weight: bold;
+	font-size: 20px;
+}
+.bovenste p {
+	font-size: 20px;
+}
+.onderste {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+
+.onderste button {
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 20px;
+	background-color: #71583a;
+	color: #edc295;
+	font-family: "Ebrima", sans-serif;
+}
+.onderste button:hover {
+	background-color: #edc295;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+}
+/*-------------------------------------MOBILE---------------------------------------------------------------*/
+@media (max-width: 768px) {
+	html,
+	body {
+		height: 100vh;
+		width: 2500px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		position: fixed;
+		margin: 0%;
+		padding: 0%;
+		touch-action: pan-x;
+		overscroll-behavior: none;
+	}
+}

@@ -1,0 +1,35 @@
+
+Section actors 
+<div class="titel2">
+				<h3 id="c1">The <em>actors</em></h3>
+				<a href="/actors.html"><button>see more -></button></a>	
+			</div>
+
+
+<section class="signin">
+			<div>
+				<h1>Sign in</h1>
+			</div>
+			<div class="container">
+				<div class="name">
+					<p>Name</p>
+					<input type="text" name="name" />
+				</div>
+				<div class="email">
+					<p>Email</p>
+					<input type="text" name="email" />
+				</div>
+				<div class="password">
+					<p>Password</p>
+					<input type="password" name="password" />
+				</div>
+				<div class="repeatpass">
+					<p>Confirm password</p>
+					<input type="password" name="confirm password" />
+				</div>
+				<div class="nextstep">
+					<p>Next step -></p>
+					<input type="text" name="next step" />
+				</div>
+			</div>
+		</section>

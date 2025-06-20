@@ -1,0 +1,262 @@
+@import url(https://use.typekit.net/xwh3mby.css);
+
+@font-face {
+	font-family: "Edwardian Script ITC";
+	src: url("../assets/fonts/edwardianscriptitc.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-color: #edc295;
+	height: 100vh;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	width: max-content;
+}
+
+#banner {
+	position: absolute;
+	top: 80%;
+	z-index: -1;
+}
+/*-------------------------------------MOBILE---------------------------------------------------------------*/
+@media (max-width: 768px) {
+	html,
+	body {
+		height: 100vh;
+		width: 2500px;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		position: fixed;
+		margin: 0%;
+		padding: 0%;
+		touch-action: pan-x;
+		overscroll-behavior: none;
+	}
+}
+/*-------------------------------------Homepage---------------------------------------------------------------*/
+.wrapper {
+	width: 100vw;
+}
+.homepage .header {
+	display: flex;
+	align-items: flex-start;
+	padding: 100px 0;
+	white-space: nowrap;
+	align-items: baseline;
+}
+
+.header h1 {
+	font-size: 341.74px;
+	font-family: "impact", sans-serif;
+	margin: 0;
+}
+.header h2 {
+	font-size: 500px;
+	font-family: "Edwardian Script ITC", sans-serif;
+	margin: 0;
+}
+button {
+	color: #edc295;
+	background-color: #71583a;
+	font-family: "Edwardian Script ITC", sans-serif;
+	font-style: normal;
+	font-size: 50px;
+	align-items: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+button:hover {
+	background-color: #edc295;
+	transition: 0.3s;
+	color: black;
+	cursor: pointer;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	margin-left: 9%;
+}
+.nav-buttons {
+	display: flex;
+	gap: 5px;
+	margin-top: -11.5%;
+}
+/*-------------------------------------Filter---------------------------------------------------------------*/
+.actors {
+	margin-left: 20%;
+}
+.filter {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	background-color: #edc295;
+	margin-top: 5%;
+	gap: 10px;
+	padding: 10px;
+}
+.filter .soort {
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	width: 600px;
+	flex-wrap: wrap;
+}
+h3 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 45px;
+}
+p {
+	font-size: 25px;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+label {
+	font-family: "Ebrima", sans-serif;
+}
+.age {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.height {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.eye_color {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.ethnicity {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.hair_color {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.language {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.body_type {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.apply {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 5px;
+}
+
+.apply button {
+	color: black;
+	background-color: #edc295;
+	font-family: "impact", sans-serif;
+	font-style: normal;
+	font-size: 25px;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.apply button:hover {
+	background-color: #71583a;
+	transition: 0.3s;
+	color: #edc295;
+	cursor: pointer;
+}
+/*-------------------------------------Photos1---------------------------------------------------------------*/
+
+.photoslinks {
+	margin-left: 15%;
+}
+
+.photos_container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 600px;
+	margin-top: 15%;
+	gap: 20px;
+}
+.photos_container img {
+	width: 150px;
+}
+
+.linksboven {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+.rechtsboven {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 10px;
+}
+.linksbeneden {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-left: -15px;
+}
+
+.rechtsbeneden {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 10px;
+}
+/*-----------------------------------Photos2---------------------------------------------------------------*/
+
+.photosrechts {
+	margin-left: 5%;
+	width: fit-content;
+	max-width: 100vw;
+}
+
+.photosrechts .photo_container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 600px;
+	margin-top: 15%;
+	gap: 20px;
+}
+
+.photo_container img {
+	width: 150px;
+}
+.photosrechts .linksboven {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+.photosrechts .rechtsboven {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 10px;
+}
+.photosrechts .linksbeneden {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-left: 5%;
+}
+
+.photosrechts .rechtsbeneden {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 10px;
+}

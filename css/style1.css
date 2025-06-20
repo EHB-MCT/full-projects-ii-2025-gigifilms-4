@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+	background-color: white;
+}
+
+h1 {
+	font-family: "eurostile", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 40px;
+	color: #03233d;
+}
+
+h2 {
+	font-family: "eurostile", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	color: #03233d;
+}
+
+h3 {
+	font-family: "eurostile", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 25px;
+	color: #03233d;
+}
+
+p {
+	font-family: "Roboto", sans-serif;
+	color: #03233d;
+	font-size: 16px;
+}
+
+p a {
+	font-family: "Roboto", sans-serif;
+	text-decoration: underline;
+	color: #a6cae7;
+}
+
+blockquote {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	color: #03233d;
+}
+
+code {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	color: #03233d;
+}
+
+pre code {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	color: #03233d;
+}
+
+/*Buttons*/
+
+.primary {
+	color: #e1f2ff;
+	background-color: #03233d;
+	padding: 8px;
+	border-radius: 9px;
+	border-color: #e1f2ff;
+}
+
+.primary:hover {
+	color: #03233d;
+	border-radius: 9px;
+	border-color: #e1f2ff;
+	background-color: #e1f2ff;
+}
+
+.secondary {
+	color: #03233d;
+	background-color: #e1f2ff;
+	padding: 8px;
+	border-radius: 9px;
+	border-color: #03233d;
+}
+
+.secondary:hover {
+	color: #e1f2ff;
+	border-radius: 9px;
+	border-color: #03233d;
+	background-color: #03233d;
+}
+
+/*Form*/
+
+label {
+	font-family: "Roboto", sans-serif;
+	color: #03233d;
+	font-size: 16px;
+}
+
+select {
+	color: #e1f2ff;
+	background-color: #03233d;
+	padding: 4px;
+	border-radius: 4px;
+	border-color: #e1f2ff;
+}
+
+input {
+	padding: 4px;
+	border-radius: 5px;
+	border-color: #03233d;
+}
+
+textarea {
+	padding: 4px;
+	border-radius: 5px;
+	border-color: #03233d;
+}
+
+.submit {
+	color: #e1f2ff;
+	background-color: #03233d;
+	padding: 4px;
+	border-radius: 4px;
+	border-color: #e1f2ff;
+}
+
+.submit:hover {
+	color: #03233d;
+	border-radius: 9px;
+	border-color: #e1f2ff;
+	background-color: #e1f2ff;
+}
+
+ul li {
+	font-family: "Roboto", sans-serif;
+	color: #03233d;
+	font-size: 16px;
+}
+
+ol li {
+	font-family: "Roboto", sans-serif;
+	color: #03233d;
+	font-size: 16px;
+}
